@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex,nofollow,noarchive">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>澤田 一樹</title>
+	<base target="_blank">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/mplus1p.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<style>
+		body {
+			color: #111;
+			font-family: "Mplus 1p";
+			font-size: 18px;
+		}
+		article {
+			font-weight: 300;
+			margin: 6em auto;
+			width: 64vw;
+		}
+		a {
+			color: #55E;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		img {
+			border-radius: 128px;
+		}
+	</style>
+</head>
+<body>
+	<article></article>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bubbly-bg/1.0.0/bubbly-bg.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.min.js"></script>
+	<script>
+		axios.get("./README.md").then(function(resp){
+			document.querySelector("article").innerHTML = markdownit({linkify: true}).render(resp.data);
+		});
+		bubbly({
+			colorStart: "#DDD",
+			colorStop: "#EEE"
+		});
+	</script>
+</body>
+</html>
