@@ -1,12 +1,15 @@
-# 澤田 一樹
+# Hello! I am Kazuki Sawada.
 
 ![](https://res.cloudinary.com/narusejun/image/facebook/w_256,h_256/100002864162790.jpg)
 
-## CNAME
+## 別名
 
-- Kazuki Sawada
-- NaruseJun
+- 澤田一樹
 - 成瀬順
+- kaz
+- sekai67
+- NaruseJun
+- FunnyTimeMaker
 
 ## 所属
 
@@ -17,7 +20,7 @@
 - [東京工業大学デジタル創作同好会traP](https://trap.jp)
 	- 2015年04月 立ち上げに参加
 	- 2015年10月～2017年12月 **代表**
-	- 2016年04月～ SysAd（インフラエンジニア）
+	- 2016年04月～2019年03月 **SysAd（インフラエンジニア）**
 
 ## ソーシャル
 
@@ -39,11 +42,15 @@
 - 旅行
 	- 鉄道
 	- 寺社仏閣
+- 音楽
+	- [西沢さんP](http://zawaso.com/)
 - SublimeText3
 	- [Boxy Theme](https://github.com/ihodev/sublime-boxy)
-- 幅4ハードタブ
-- ArchLinux
+	- 幅4ハードタブ
+- Linux
+	- ArchLinux
 - CTF
+	- Web
 
 ## 言語
 
@@ -72,12 +79,14 @@
 - Docker
 - HTML/CSS
 - MariaDB(MySQL)
+- MongoDB
 
 ## 活動
 
 ### セキュリティ・キャンプ全国大会
 
 2016年8月(大学2) - **参加**
+
 2017年8月(大学3) - **チューター**
 
 「セキュリティ・キャンプ全国大会」は夏季に実施される合宿形式のサーバーセキュリティ勉強会で、
@@ -173,6 +182,16 @@ CTF形式のセキュリティコンテスト「SANS NETWARSトーナメント�
 
 ICTトラブルシューティングコンテストとは、全国の学生を対象としたサーバー・ネットワークのトラブルシューティングや運用技術をチーム単位で競うコンテストです。
 私の主宰するチームtraPは、予選で第2位の成績で本選に出場、本戦では新人賞を受賞しました。
+
+### 第13回 情報危機管理コンテスト
+
+2018年5月(大学4) - **優勝 / 経済産業大臣賞**
+
+- http://www.riis.or.jp/symposium22/crisismanagement/final/
+- https://www.titech.ac.jp/news/2018/041693.html
+
+情報危機管理コンテストとは、「サイバー犯罪に関する白浜シンポジウム」の会場で並行して開催される、情報セキュリティに関するコンテストです。
+私の主宰するチームtraPは、好成績で予選を通過、本戦では優勝し経済産業大臣賞を受賞しました。
 
 ## 作品
 

@@ -4,23 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex,nofollow,noarchive">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>澤田 一樹</title>
+	<title>Kazuki Sawada</title>
 	<base target="_blank">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/mplus1p.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 	<style>
 		body {
-			color: #111;
-			font-family: "Mplus 1p";
+			color: #FFF;
 			font-size: 18px;
+			font-family: "Rounded Mplus 1c";
+			background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
 		}
 		article {
-			font-weight: 300;
 			margin: 6em auto;
 			width: 64vw;
 		}
 		a {
-			color: #55E;
+			color: #AFA;
 			text-decoration: none;
 		}
 		a:hover {
@@ -29,20 +29,22 @@
 		img {
 			border-radius: 128px;
 		}
+		h2 {
+			border-bottom: .5em solid rgba(255, 255, 255, 0.8);
+		}
+		h3::before {
+			content: "■ ";
+			color: rgba(255, 255, 255, 0.8);
+		}
 	</style>
 </head>
 <body>
-	<article></article>
+	<article>Loading ...</article>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bubbly-bg/1.0.0/bubbly-bg.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.min.js"></script>
 	<script>
 		axios.get("./README.md").then(function(resp){
 			document.querySelector("article").innerHTML = markdownit({linkify: true}).render(resp.data);
-		});
-		bubbly({
-			colorStart: "#DDD",
-			colorStop: "#EEE"
 		});
 	</script>
 </body>
