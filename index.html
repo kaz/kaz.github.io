@@ -17,7 +17,7 @@
 		}
 		article {
 			margin: 6em auto;
-			width: 64vw;
+			width: 60vw;
 		}
 		a {
 			color: #AFA;
@@ -36,16 +36,18 @@
 			content: "■ ";
 			color: rgba(255, 255, 255, 0.8);
 		}
+		p {
+			padding-left: 1em;
+		}
 	</style>
 </head>
 <body>
 	<article>Loading ...</article>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.min.js"></script>
 	<script>
-		axios.get("./README.md").then(function(resp){
-			document.querySelector("article").innerHTML = markdownit({linkify: true}).render(resp.data);
-		});
+		fetch("./README.md")
+		.then(r => r.text())
+		.then(md => document.querySelector("article").innerHTML = markdownit({html: true, linkify: true}).render(md));
 	</script>
 </body>
 </html>
