@@ -2,52 +2,319 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="robots" content="noindex,nofollow,noarchive">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Kazuki Sawada</title>
 	<base target="_blank">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-	<style>
-		body {
-			color: #FFF;
-			font-size: 18px;
-			font-family: "Rounded Mplus 1c";
-			background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
-		}
-		article {
-			margin: 6em auto;
-			width: 60vw;
-		}
-		a {
-			color: #AFA;
-			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-		img {
-			border-radius: 128px;
-		}
-		h2 {
-			border-bottom: .5em solid rgba(255, 255, 255, 0.8);
-		}
-		h3::before {
-			content: "■ ";
-			color: rgba(255, 255, 255, 0.8);
-		}
-		p {
-			padding-left: 1em;
-		}
-	</style>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@latest/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@latest/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<article>Loading ...</article>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.1/markdown-it.min.js"></script>
-	<script>
-		fetch("./README.md")
-		.then(r => r.text())
-		.then(md => document.querySelector("article").innerHTML = markdownit({html: true, linkify: true}).render(md));
-	</script>
+	<h1>澤田 一樹</h1>
+	<header>
+		<img src="https://res.cloudinary.com/narusejun/image/facebook/w_160,h_160/100002864162790.jpg">
+	</header>
+
+	<section>
+		<a class="social ghost" href="https://narusejun.com/"></a>
+		<a class="social github" href="https://github.com/kaz"></a>
+		<a class="social twitter" href="https://twitter.com/sekai67"></a>
+		<a class="social facebook" href="https://www.facebook.com/sawada.kazuki"></a>
+	</section>
+
+	<h2><span class="pe-7s-user"></span> 自分</h2>
+	<section>
+		<article>
+			<h3><span class="pe-7s-study"></span> 学歴</h3>
+			<p>
+				<big>東京工業大学</big><br>
+				工学部 情報工学科<br>
+				2019年3月 卒業
+			</p>
+			<p>
+				<a href="https://www.facebook.com/sawada.kazuki/about"><span class="pe-7s-link"></span>もっと</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-users"></span> サークル</h3>
+			<p>
+				東京工業大学<br>
+				<big>デジタル創作同好会traP</big><br>
+				元代表（設立者）
+			</p>
+			<p>
+				<a href="https://trap.jp/"><span class="pe-7s-link"></span>ウェブサイト</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-unlock"></span> CTFチーム</h3>
+			<p>
+				<big>NaruseJun</big><br>
+				チームリーダー<br>
+				Web
+			</p>
+			<p>
+				<a href="https://ctftime.org/team/21252"><span class="pe-7s-link"></span>成績</a>
+			</p>
+		</article>
+	</section>
+
+	<h2><span class="pe-7s-like"></span> 好き</h2>
+	<section>
+		<article>
+			<h3><span class="pe-7s-config"></span> 言語</h3>
+			<p>
+				Golang<br>
+				Node.js<br>
+				Perl
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-monitor"></span> Linux</h3>
+			<p>
+				<big><span class="icon archlinux"></span> Arch Linux</big>
+			</p>
+			<p>
+				<a href="https://wiki.archlinux.jp/index.php/Arch_Linux#.E5.8E.9F.E5.89.87"><span class="pe-7s-link"></span>The Arch Way</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-note"></span> エディタ</h3>
+			<p>
+				<big><span class="icon visualstudiocode"></span> Visual Studio Code</big>
+			</p>
+			<p>
+				インデント: 幅4ハードタブ
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-music"></span> 音楽</h3>
+			<p>
+				<a href="http://zawaso.com/">TOKOTOKO（西沢さんP）</a><br>
+				<a href="https://soundcloud.com/tkrism/">Yunomi</a><br>
+				<a href="https://soundcloud.com/moeshop/">Moe Shop</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-ball"></span> 趣味</h3>
+			<p>
+				旅行<br>
+				乗り鉄<br>
+				寺社仏閣
+			</p>
+		</article>
+	</section>
+
+	<h2><span class="pe-7s-compass"></span> 活動</h2>
+	<section>
+		<article>
+			<h3><span class="pe-7s-share"></span> OSS貢献</h3>
+			<p>
+				<a href="https://gitlab.com/gitlab-org/gitlab-ce/">GitLab</a>,
+				<a href="https://github.com/owncloud/apps">ownCloud</a>(プラグイン),<br>
+				<a href="https://github.com/go-gitea/gitea">Gitea</a>(翻訳),
+				<a href="https://github.com/crowi/crowi">Crowi</a>,
+				<a href="https://github.com/AnalogJ/lexicon">Lexicon</a>,
+				<a href="https://github.com/xenolf/lego">lego</a>,
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-lock"></span> セキュリティ・キャンプ</h3>
+			<p>
+				全国大会2016 参加<br>
+				全国大会2017 チューター（アプリケーショントラック）<br>
+				全国大会2018 チューター（開発と運用トラック）
+			</p>
+			<p>
+				<a href="https://www.security-camp.or.jp/camp/index.html"><span class="pe-7s-link"></span>セキュリティ・キャンプ</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-portfolio"></span> インターンシップ</h3>
+			<p>
+				2017年8月<br>
+				<big>Yahoo! JAPAN</big><br>
+				黒帯インターンシップ（データプラットフォーム）<br>
+			</p>
+			<p>
+				社内向けストレージプラットフォームの開発・検証
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-portfolio"></span> インターンシップ</h3>
+			<p>
+				2017年9月<br>
+				<big>GMOペパボ</big><br>
+				インフラエンジニアコース
+			</p>
+			<p>
+				社内向けプライベートクラウドの監視システム導入<br>
+				<a href="https://hr.pepabo.com/report/2017/09/15/556"><span class="pe-7s-link"></span>レポート</a>
+			</p>
+		</article>
+	</section>
+
+	<h2><span class="pe-7s-cup"></span> 受賞等</h2>
+	<section>
+		<article>
+			<h3><span class="pe-7s-medal"></span> SECCON CTF 2018 International</h3>
+			<p>
+				2018年12月<br>
+				チーム: NaruseJun<br>
+				<big>準優勝</big>
+			</p>
+			<p>
+				<a href="http://www.security-next.com/101404"><span class="pe-7s-link"></span>ニュース記事</a>
+				<a href="https://2018.seccon.jp/2018/12/seccon-ctf-2018-team-list-international-domestic.html"><span class="pe-7s-link"></span>チームリスト</a>
+				<a href="https://twitter.com/sekai67/status/1076750649205780480"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> ISUCON8</h3>
+			<p>
+				2018年10月<br>
+				チーム: NaruseJun<br>
+				<big>学生2位／特別賞</big>
+			</p>
+			<p>
+				<a href="http://isucon.net/archives/52606184.html"><span class="pe-7s-link"></span>フォトレポート</a>
+				<a href="https://twitter.com/sekai67/status/1053588818673029121"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> 第13回 情報危機管理コンテスト</h3>
+			<p>
+				2018年5月<br>
+				チーム: traP<br>
+				<big>優勝／経済産業大臣賞</big>
+			</p>
+			<p>
+				<a href="https://www.titech.ac.jp/news/2018/041693.html"><span class="pe-7s-link"></span>大学ニュース</a>
+				<a href="http://www.riis.or.jp/symposium22/crisismanagement/final/"><span class="pe-7s-link"></span>結果</a>
+				<a href="https://twitter.com/sekai67/status/1000204731602489345"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> 第9回 ICTトラブルシューティングコンテスト</h3>
+			<p>
+				2018年3月<br>
+				チーム: traP<br>
+				<big>第4位／新人賞</big>
+			</p>
+			<p>
+				<a href="http://icttoracon.net/archives/5833"><span class="pe-7s-link"></span>レポート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> SECCON 2017 国内決勝</h3>
+			<p>
+				2018年2月<br>
+				チーム: NaruseJun<br>
+				<big>準優勝／文部科学大臣賞（個人賞）</big>
+			</p>
+			<p>
+				<a href="http://www.security-next.com/090240"><span class="pe-7s-link"></span>ニュース記事</a>
+				<a href="https://2017.seccon.jp/news/seccon2017-finals-outline&amp;team-list.html"><span class="pe-7s-link"></span>チームリスト</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> ISUCON7</h3>
+			<p>
+				2017年11月<br>
+				チーム: NaruseJun<br>
+				<big>本戦出場</big>
+			</p>
+			<p>
+				<a href="http://isucon.net/archives/50956331.html"><span class="pe-7s-link"></span>チームリスト</a>
+				<a href="https://twitter.com/sekai67/status/934214111625322496"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> サイバーコロッセオ×SECCON 2016</h3>
+			<p>
+				2017年3月<br>
+				チーム: NaruseJun<br>
+				<big>第3位</big>
+			</p>
+			<p>
+				<a href="http://www.atmarkit.co.jp/ait/articles/1703/10/news053.html"><span class="pe-7s-link"></span>ニュース記事</a>
+				<a href="https://twitter.com/sekai67/status/838303643111579648"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-light"></span> 第3回 東京工業大学EDC</h3>
+			<p>
+				2017年2月<br>
+				作品: <a href="https://kaz.github.io/showcase/">Showcase</a><br>
+				<big>第3位／優秀賞</big>
+			</p>
+			<p>
+				<a href="https://pepabo.com/news/information/201702171300"><span class="pe-7s-link"></span>ニュース記事</a>
+				<a href="https://twitter.com/sekai67/status/832812615915098112"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> 第5回 git challenge</h3>
+			<p>
+				2017年1月<br>
+				<big>優勝</big>
+			</p>
+			<p>
+				<a href="https://www.facebook.com/mixihr/posts/1826148860974429"><span class="pe-7s-link"></span>レポート</a>
+				<a href="https://twitter.com/sekai67/status/825262132514000898"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> SANS NETWARSトーナメント2016</h3>
+			<p>
+				2016年8月<br>
+				<big>準優勝</big>
+			</p>
+			<p>
+				<a href="https://www.nri-secure.co.jp/event/2016/netwars_report.html"><span class="pe-7s-link"></span>レポート</a>
+				<a href="https://twitter.com/sekai67/status/766905677621047296"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-light"></span> Hack U 東京工業大学 2016</h3>
+			<p>
+				2016年6月<br>
+				チーム: deka.narusejun.com<br>
+				作品: discussion.narusejun.com<br>
+				<big>ヤフー賞</big>
+			</p>
+			<p>
+				<a href="https://hacku.yahoo.co.jp/titech2016/"><span class="pe-7s-link"></span>レポート</a>
+				<a href="https://www.youtube.com/watch?v=jBqVcu36Yj8&amp;t=1h18m54s"><span class="pe-7s-link"></span>プレゼンの様子</a>
+				<a href="https://twitter.com/sekai67/status/741526976784011266"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-medal"></span> CODE FESTIVAL 2015</h3>
+			<p>
+				2015年11月<br>
+				<big>本戦参加</big>
+			</p>
+			<p>
+				<a href="https://twitter.com/sekai67/status/665662829073072128"><span class="pe-7s-link"></span>報告ツイート</a>
+			</p>
+		</article>
+		<article>
+			<h3><span class="pe-7s-light"></span> 第33回 U-22プログラミングコンテスト</h3>
+			<p>
+				2012年10月<br>
+				作品: mineSeeker<br>
+				<big>経済産業省商務情報政策局長賞</big>
+			</p>
+			<p>
+				<a href="https://u22procon.com/2012/w_08.php"><span class="pe-7s-link"></span>受賞作品紹介</a>
+			</p>
+		</article>
+	</section>
+
+	<footer>
+		ご連絡は <a href="https://twitter.com/messages/compose?recipient_id=3136268972">Twitter DM</a> または <em>kazuki [at] 6715 [dot] jp</em> まで
+	</footer>
 </body>
 </html>
