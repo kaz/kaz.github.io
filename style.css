@@ -37,6 +37,9 @@ img {
 .social.ghost {
 	background-color: #738A94;
 }
+.social.qiita {
+	background-color: #55C500;
+}
 .social.github {
 	background-color: #181717;
 }
@@ -56,6 +59,10 @@ img {
 .social.ghost:after {
 	mask-image: url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ghost.svg);
 	-webkit-mask-image: url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ghost.svg);
+}
+.social.qiita:after {
+	mask-image: url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/qiita.svg);
+	-webkit-mask-image: url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/qiita.svg);
 }
 .social.github:after {
 	mask-image: url(https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg);
